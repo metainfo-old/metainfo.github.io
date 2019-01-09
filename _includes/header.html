@@ -14,11 +14,34 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css" />
 	<link rel="stylesheet" href="https://cdn-storage.github.io/styles/theme/theme.css" />
-	<link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}" />
+	<link rel="stylesheet" href="{{ "
+	/assets/css/theme.css" | relative_url }}" />
 	<!-- / styles -->
 
 	<!-- favicon -->
-	<link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" />
+	<link rel="icon" type="image/x-icon" href="{{ "
+	/assets/img/favicon.ico" | relative_url }}" />
 	<!-- / favicon -->
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
+<header>
+	<nav class="navbar has-shadow is-fixed-top is-transparent" role="navigation" aria-label="main navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="#" itemprop="url">
+				<span itemprop="name">METAINFO</span>
+			</a>
+			<a class="navbar-burger burger" role="button" data-target="navMenu" aria-label="menu" aria-expanded="false">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+		<div id="navMenu" class="navbar-menu">
+			<div class="navbar-end">
+				<a class="navbar-item" href="https://metacraft.github.io/" itemprop="url">
+					<span itemprop="name">Фабрики</span>
+				</a>
+			</div>
+		</div>
+	</nav>
+</header>
