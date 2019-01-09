@@ -8,20 +8,20 @@ function extJS_getDomain() {
 	return domain;
 }
 
-function extJS_getRepoData(org_id) {
+function extJS_getRepoData(repo_id) {
 	let api;
 
 	const client_id = '9e24a1926a87971c3cd7';
 	const client_secret = 'b203305300eb04727e32514dc5bedb03e35629c8';
 
-	api = 'https://api.github.com/orgs/' + org_id + '/repos?client_id=' + client_id + '&client_secret=' + client_secret;
+	api = 'https://api.github.com/orgs/' + repo_id + '/repos?client_id=' + client_id + '&client_secret=' + client_secret;
 
 	return api;
 }
 
 function extJS_setRepoData() {
-	const org_id = extJS_getDomain();
-	const api = extJS_getRepoData(org_id);
+	const repo_id = extJS_getDomain();
+	const api = extJS_getRepoData(repo_id);
 	let out;
 
 	$.getJSON(api, function (data) {
