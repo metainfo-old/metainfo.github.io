@@ -6,5 +6,5 @@
  */
 
 $(function () {
-	extJS_getRepoData('metainfo', '9e24a1926a87971c3cd7', 'b203305300eb04727e32514dc5bedb03e35629c8');
+	extJS_getRepoData('metainfo', '349b0139617f7943b14e308800e35dd93e24025c');
 });
