@@ -1,6 +1,6 @@
 'use strict';
 
-function extJS_getDomain() {
+function extJS_getHost() {
 	let host, part, sub, domain;
 
 	host = window.location.host;
@@ -23,7 +23,7 @@ function extJS_getRepoData(repo_id) {
 }
 
 function extJS_setRepoData() {
-	const repo_id = extJS_getDomain();
+	const repo_id = extJS_getHost();
 	const api = extJS_getRepoData(repo_id);
 	let out;
 
