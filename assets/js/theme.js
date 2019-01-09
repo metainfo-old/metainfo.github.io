@@ -38,7 +38,7 @@ function extJS_setOrgData() {
 			const issues = data[i].open_issues;
 			const watchers = data[i].watchers;
 
-			out += name + '<br/>' + full_name;
+			out += name + ' | ' + full_name + '<br/>';
 		}
 
 		$('.column').empty().append(out);
