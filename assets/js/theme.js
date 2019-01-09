@@ -1,14 +1,16 @@
 'use strict';
 
 function extJS_getHost() {
-	let host, part, sub, domain;
+	let host, part, sub, domain, out;
 
 	host = window.location.host;
 	part = host.split('.');
 	sub = part[0];
 	domain = part[1];
 
-	return sub;
+	out = sub ? sub : domain;
+
+	return out;
 }
 
 function extJS_getRepoData(repo_id) {
