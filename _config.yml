@@ -1,5 +1,15 @@
-title: "Информация по проектам METADATA"
-description: "Справочные материалы по проектам METADATA."
+title: "METAINFO"
+description: ""
+lang: "ru_RU"
+
+twitter:
+  username: "metadatafdn"
+  card: "summary"
+social:
+  name: "METADATA Foundation"
+  links:
+    - https://twitter.com/metadatafdn
+    - https://vk.com/metadatafdn
 
 markdown: kramdown
 
@@ -7,8 +17,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+sass:
+  style: compressed
+  sass_dir: assets/css/
+
 author:
   name: "Kitsune Solar"
   email: "kitsune.solar@gmail.com"
-  github: "metacraft"
-  twitter: "metadatafdn"
+  github: "KitsuneSolar"
+  twitter: "KitsuneSolar"
