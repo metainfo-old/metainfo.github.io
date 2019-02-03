@@ -13,7 +13,7 @@ scripts:
   - https://cdn.jsdelivr.net/npm/clipboard
   - https://cdn-storage.github.io/scripts/api/fetch.cache.min.js
   - https://cdn-storage.github.io/scripts/github/github.api.min.js
-  - https://cdn-storage.github.io/scripts/github/github.get.org.repos.js
+  - https://cdn-storage.github.io/scripts/github/github.get.org.repos.min.js
   - https://cdn-storage.github.io/scripts/bulma/bulma.min.js
   - https://cdn-storage.github.io/scripts/theme/theme.min.js
 
