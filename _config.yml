@@ -1,28 +1,29 @@
 title: "METAINFO"
 description: ""
 lang: "ru_RU"
+logo: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
+image: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
+
+sass:
+  style: compressed
+  sass_dir: assets/css/
 
 twitter:
   username: "metadatafdn"
   card: "summary"
+
 social:
   name: "METADATA Foundation"
   links:
     - https://twitter.com/metadatafdn
     - https://vk.com/metadatafdn
 
-markdown: kramdown
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-sass:
-  style: compressed
-  sass_dir: assets/css/
-
 author:
   name: "Kitsune Solar"
   email: "kitsune.solar@gmail.com"
   github: "KitsuneSolar"
   twitter: "KitsuneSolar"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
